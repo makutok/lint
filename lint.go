@@ -196,7 +196,7 @@ func (f *file) lint() {
 	f.lintPackageComment()
 	f.lintImports()
 	f.lintBlankImports()
-	// f.lintExported()    TODO: let user choose
+	// f.lintExported()		TODO: let user choose
 	f.lintNames()
 	f.lintElses()
 	f.lintRanges()
